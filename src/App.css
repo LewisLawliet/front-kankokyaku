@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body{
+  background-color: #262BB8;
+  font-family: "Ribeye";
+  color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  margin-top: 4px;
+  margin-left: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz  {
+  display: flex;
+}
+
+.article{
+  display: flex;
+}
+
+.navMenu{
+  padding-top: 45px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.bandeau {
+  
+  height: 170px;
+  background-color: #21215a;
+  width: 100%;
+}
+
+.connexion{
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  width: auto;
+  height: 35px;
+}
+
+.register {
+  width: auto;
+  height: 35px;
+}
+
+/*.city {
+  width: 100%;
+  height: auto;
+}*/
+.city {
+  width: 100%;
+  height: auto;
+  background-image: url("./images/fond.svg")
+}
+.body-pa{
+  height: 700px;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.touriste {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: auto;
 }

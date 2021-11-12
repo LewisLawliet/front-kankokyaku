@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import fond from "./images/fond.svg";
+import touriste from "./images/touriste.svg";
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<img className="city" alt="fond city night" src={fond}></img>*/}
+      <div className="city"></div>
+      <div className="body-pa"><img className="touriste" alt="touriste" src={touriste}></img></div>
+      
     </div>
   );
 }
