@@ -7,6 +7,7 @@ body{
 .logo{
   margin-top: 4px;
   margin-left: 4px;
+  cursor: pointer;
 }
 
 .nav{
@@ -20,6 +21,68 @@ body{
 
 .article{
   display: flex;
+}
+
+.my-articles{
+  height: 375px;
+  width: 88%;
+  background-color: white;
+  position: absolute;
+  top: 205px;
+  left: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lieux {
+  cursor: pointer;
+  transition: transform .2s;
+}
+.lieux:hover {
+  transform: scale(1.1);
+}
+.gastronomie {
+  cursor: pointer;
+  transition: transform .2s;
+}
+.gastronomie:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.fun {
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.fun:hover {
+  transform: scale(1.1);
+}
+.themes{
+
+}
+.theme_article {
+  color: black;
+}
+
+.lieux-title{
+  bottom: 333px;
+  position: absolute;
+  right: 84%;
+  color: red;
+}
+
+.gastronomie-title{
+  bottom: 333px;
+  position: absolute;
+  right: 45%;
+  color: red;
+}
+
+.fun-title {
+  bottom: 333px;
+  position: absolute;
+  right: 16%;
+  color: red;
 }
 
 .navMenu{
@@ -39,16 +102,25 @@ body{
   width: 10%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .login {
   width: auto;
   height: 35px;
+  cursor: pointer;
+}
+
+.logout {
+  width: auto;
+  height: 35px;
+  cursor: pointer;
 }
 
 .register {
   width: auto;
   height: 35px;
+  cursor: pointer;
 }
 
 /*.city {
@@ -73,4 +145,256 @@ body{
   align-items: center;
   height: 600px;
   width: auto;
+}
+
+.chevron {
+  width: 20px;
+  cursor: pointer;
+}
+
+.japan-city-night {
+  width: 100%;
+  height: 600px;
+}
+
+/*.imgHomeBackground{
+  background-image: url("./images/tt.jpg");
+  width: 100%;
+  height: 600px;
+}*/
+
+.menuF {
+	height: 90px;
+	background-color: black;
+	width: 100%
+}
+
+.ulFooter {
+	display: flex;
+	justify-content: space-around;
+	height: 70px;
+	align-items: center;
+  list-style-type: none;
+	/*width: 100% */
+}
+.contact{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+.ulFooter li {
+  cursor: pointer;
+}
+
+.AproposConteneur {
+	margin-top: 140px;
+	height: auto;
+	width: 75%;
+	background-color: #92A4E4;
+	border: 2px solid white;
+	margin-right: 5%;
+	margin-left: 8%;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 21px;
+}
+
+.page {
+  min-height: 700px;
+}
+
+.pageArticles {
+  min-height: 1700px;
+}
+
+.articlesLieux {
+
+}
+
+.articles {
+  width: 100%;
+  min-height: 900px;
+}
+
+.imgDeco {
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-title {
+  display: flex;
+  justify-content: center;
+}
+
+.cadre {
+  width: 245px;
+  height: 145px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.article-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.article-cadre {
+  width: 80%;
+  min-height: 900px;
+  background-color: #92A4E4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.space {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.contourForm {
+	background-color: #92A4E4;
+	width: 187px;
+	height: 285px;
+	border-radius: 2px;
+  position: absolute;
+  top: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  right: 1%;
+  border: solid 2px;
+}
+
+.img-place-containt{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.champsForm {
+
+	width: 120px;
+	height: 23px;
+	border-radius: 4px;
+	margin-left: 4%;
+	font-family: 'Ribeye', sans-serif;
+}
+
+.envoyer {
+
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: 'Ribeye', sans-serif;
+	cursor: pointer;
+  height: 36px;
+}
+
+.notLogged{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgDenied{
+ max-height: 600px;
+}
+
+/*.envoyer:hover {
+
+	background-color: white;
+	color: black;
+
+}*/
+
+.moncercle{
+  background:#21215a;
+  border-radius:50%;
+  width: 44px;
+  height:44px;
+  border:2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform .2s;
+ 
+}
+
+.moncercle:hover{
+  border:2px solid white;
+}
+
+.cross-container {
+  width: 25px;
+  height: 25px;
+}
+
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: white;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: white;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+
+.connexion-cercle {
+  margin-top: 2px;
+}
+
+.register-cercle {
+  margin-top: 4px;
+}
+
+.submit-register {
+  margin-bottom: 4px;
+}
+
+.submit-login {
+  margin-bottom: 2px;
+}
+
+.success-msg {
+	/*background-color: #92A4E4;*/
+  background-color: white;
+	width: 500px;
+	height: auto;
+	border-radius: 2px;
+  position: absolute;
+  top: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  right: 1%;
+  border: solid white 2px;
+  color: #8DF93D;
+}
+
+.error {
+  color: red;
 }

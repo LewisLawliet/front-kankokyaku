@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from "./header"
+import { CookiesProvider } from "react-cookie";
+import Footer from './footer';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <Header />
+    <CookiesProvider>
     <App />
+    <Footer />
+    </CookiesProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
