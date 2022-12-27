@@ -14,9 +14,9 @@ import axios from 'axios';
 import React from "react";
 import { useCookies } from "react-cookie";
 import { useNavigate } from 'react-router';
-import quizLieux from './images/quizLieux.svg';
-import quizFun from './images/quizFun.svg';
-import quizGastronomie from './images/quizLieux.svg';
+import quizLieux from './images/quiz-LIEUX.svg';
+import quizFun from './images/quiz-FUN.svg';
+import quizGastronomie from './images/quiz-GAS.svg';
 
  const Header =()=>{
     //const [cookies, setCookie] = useCookies(["auth-cookie"]);

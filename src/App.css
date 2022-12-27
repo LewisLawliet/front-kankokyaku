@@ -22,7 +22,10 @@ body{
 .article{
   display: flex;
 }
-
+.my-quiz{
+  width: 331px;
+  height: 332px;
+}
 .my-articles{
   height: 375px;
   width: 88%;
@@ -397,4 +400,26 @@ body{
 
 .error {
   color: red;
+}
+
+.postArticle{
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteneurBack{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.input-office{
+  width: 30%;;
 }
